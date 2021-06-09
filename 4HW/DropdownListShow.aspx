@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DropdownListShow.aspx.cs" Inherits="_4HW.DropdownListShow" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DropdownListShow.aspx.cs" Inherits="_4HW.DropdownListShow" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,8 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:DropDownList ID="ddl_Area" runat="server" AutoPostBack="True"></asp:DropDownList><br/>
+        <asp:DropDownList ID="ddl_Place" runat="server"></asp:DropDownList>
     </form>
 </body>
 </html>
